@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: #4bdaed;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .btn-header {
+            background-color: #ffc570;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px;
+            color: white;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        .tag-btn {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .btn-login {
+            background-color: #4bdaed;
+            color: black;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .tag-btn-login {
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .btn-signin {
+            background-color: #4bdaed;
+            color: black;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .tag-btn-signin {
+            text-decoration: none;
+            font-size: 15px;
+        }
+    </style>
+    <title>Blog | Todo en Tecnologia</title>
+</head>
+
+<body>
+    <nav
+        style="list-style-type: none; margin: 0%; padding: 0%; overflow: hidden; display: inline; display: flex; justify-content: center; display: block; padding: 1px 1px; text-decoration: none; color: white; background-color: #4bdaed">
+        <div>
+            <ul
+                style="text-align: center; list-style-type: none; margin: 0%; padding: 0%; overflow: hidden; display: inline; display: flex; justify-content: center; display: block; padding: 15px 16px; text-decoration: none;">
+                <li style="display: inline;"><a style="color: white; text-decoration: none; padding: 0 1px;"
+                        href="#home">Inicio</a></li>
+                <li style="display: inline;"><a style="color: white; text-decoration: none; padding: 0 1px;"
+                        href="#article">Articulos</a></li>
+                <li style="display: inline;"><a style="color: white; text-decoration: none; padding: 0 1px;"
+                        href="#about_us">Sobre nosotros</a></li>
+                <li style="display: inline;"><a style="color: white; text-decoration: none; padding: 0 1px;"
+                        href="#top-blogs">Top blogs</a></li>
+                <li style="display: inline;"><a style="color: white; text-decoration: none; padding: 0 1px;"
+                        href="#contact">Contacto</a></li>
+
+            </ul>
+        </div>
+        <div style="height: 20px; width: 50px; ">
+            <img src="img/nano.png" alt="logo" width="70px" height="70px" style="position: relative; top: -50px;">
+        </div>
+        <div style="float: right; position: relative; top: -53px; ">
+            <button class="btn-login"><a class="tag-btn-login" href="#" style="color: white;">Iniciar
+                    sesion</a></button>
+            <button class="btn-signin"><a class="tag-btn-signin" href="#" style="color: white;">Registrarse</a></button>
+        </div>
+    </nav>
+
+    <header id="home" style="background-color:#ffc570; height: 380px; width: 100%;">
+        <br>
+        <div style="width: 54%; height: 250px; float: left;">
+            <h2 style="text-align: center;">Blog de tecnología</h2>
+            <p style="text-align: center;">Si quieres disfrutar del mejor contenido tecnologico, puedes
+                encontrar todo lo que buscas acerca de la tecnologia mundial.
+            </p>
+            <button class="btn-header"><a class="tag-btn" href="#">Ver video</a></button>
+        </div>
+        <div style="width: 44%; height: 350px; float: right;">
+            <video src="img/2516162-hd_1920_1080_24fps.mp4" width="100%" height="250px" controls>
+            </video>
+        </div>
+    </header>
+
+    <main style="text-align: center;">
+        <article>
+            <section id="article" style="background-color:#adf7b0; height: 1999px; width: 100%;">
+                <br>
+                <h2>Articulos</h2>
+                <div>
+                    <nav>
+                        <ul
+                            style="text-align: center; list-style-type: none; margin: 0%; padding: 0%; overflow: hidden;
+                            display: inline; display: flex; justify-content: center; display: block; padding: 15px 16px;
+                            text-decoration: none;">
+                            <li style="display: inline;"><a style="color: black; text-decoration: none; padding: 0 1px;"
+                                    href="#">Últimas noticias</a></li>
+                            <li style="display: inline;"><a style="color: black; text-decoration: none; padding: 0 1px;"
+                                    href="#article2">Inteligencia Artificial</a></li>
+                            <li style="display: inline;"><a style="color: black; text-decoration: none; padding: 0 1px;"
+                                    href="#">Redes Sociales</a></li>
+                            <li style="display: inline;"><a style="color: black; text-decoration: none; padding: 0 1px;"
+                                    href="#article1">Ciberseguridad</a></li>
+                            <li style="display: inline;"><a style="color: black; text-decoration: none; padding: 0 1px;"
+                                    href="#article3">Privacidad</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <div style="float: left; width: 75%;">
+                        <div id="article1" style="background-color: white; padding: 20px; margin-top: 20px;">
+                            <h2>Asesórese para protegerse del Robo de Identidad</h2>
+                            <h5>Una actividad fraudulenta en crecimiento, Dec 10, 2017</h5>
+                            <div>
+                                <img src="img/robo-identidad.png" alt="img1" width="300px" height="300px">
+                            </div>
+                            <aside>
+                                <p>No importa si tu plan de datos te permite usar 2GB o 10GB, lo último que quieres
+                                    recibir es
+                                    un
+                                    mensaje
+                                    informándote que estás por llegar al límite.
+                                    <a href="https://cnetenespanol.com/asesorese-para-protegerse-del-robo-de-identidad/"
+                                        target="_blank">Leer más</a>
+                                </p>
+                            </aside>
+                        </div>
+
+                        <div style="float: left; width: 100%;">
+                            <div id="article3" style="background-color: white; padding: 20px; margin-top: 20px;">
+                                <h2>¿Estamos preparados para vivir sin contraseñas?</h2>
+                                <h5>Las principales empresas tecnológicas apuestan por métodos de identificación
+                                    alternativos, Dec 10, 2017</h5>
+                                <div>
+                                    <img src="img/pass.jpg" alt="img1" width="300px" height="300px">
+                                </div>
+                                <aside>
+                                    <p>
+                                        Uno de los principales motivos por los que las grandes
+                                        empresas tecnológicas —e incluso los gobiernos— están impulsando este
+                                        cambio es que las contraseñas tradicionales resultan
+                                        especialmente vulnerables a los ataques de phishing.
+                                        <a href="https://elpais.com/tecnologia/tu-tecnologia/2026-02-11/estamos-preparados-para-vivir-sin-contrasenas.html"
+                                            target="_blank">Leer más</a>
+                                    </p>
+                                </aside>
+                            </div>
+
+                            <div style="float: left; width: 100%;">
+                                <div id="article2" style="background-color: white; padding: 20px; margin-top: 20px;">
+                                    <h2>Moltbook, la red social donde los agentes de IA crean religiones y los humanos
+                                        “son bienvenidos a observar”</h2>
+                                    <h5>La plataforma, que tiene una estructura similar a Reddit, afirma haber superado
+                                        el millón y medio de bots registrados hasta el momento, Feb 10, 2026</h5>
+                                    <div>
+                                        <img src="img/molt.jpg" alt="img1" width="300px" height="300px">
+                                    </div>
+                                    <aside>
+                                        <p>
+                                            Durante años, internet ha exigido a las personas demostrar que no son robots
+                                            —marcando la clásica casilla de “no soy un robot”—.
+                                            <a href="https://elpais.com/tecnologia/2026-02-02/moltbook-la-red-social-donde-los-agentes-de-ia-crean-religiones-y-los-humanos-son-bienvenidos-a-observar.html#?rel=lom"
+                                                target="_blank">Leer más</a>
+                                        </p>
+                                    </aside>
+                                </div>
+
+            </section>
+        </article>
+
+        <article>
+            <section id="about_us" style="background-color:#e865ff; height: 600px; width: 100%;">
+                <br>
+                <h2 style="text-align: center;">Sobre nosotros</h2>
+                <div>
+                    <img src="img/aboutus.jpg" alt="" width="500px" height="300px">
+                </div>
+                <p>
+                    Este blog fue creado con el objetivo de socializar información tecnologica y las ultimas noticias de
+                    innovación
+                    Con este proyecto prometemos mantener informado a todas las personas acerca de las ultimas
+                    tecnologias
+                    relevantes.
+                    Además poder compartir información que pueda ser util para la comunidad y población en general.
+                </p>
+            </section>
+        </article>
+
+        <article>
+            <section id="top-blogs" style="background-color: cornflowerblue; height: 500px; width: 100%;">
+                <br>
+                <h2>Top blogs más visitados</h2>
+                <table border="collapse" style="text-align: center;">
+                    <thead style="background-color: blueviolet; color: white;">
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Titulo
+                            </th>
+                            <th>
+                                Fecha
+                            </th>
+                            <th>
+                                Descripcion
+                            </th>
+                            <th>
+                                Categoria
+                            </th>
+                            <th>
+                                Visitar
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Asesórese para protegerse del Robo de Identidad</td>
+                            <td>10/12/2017</td>
+                            <td>No importa si tu plan de datos te permite usar 2GB o 10GB, lo último que quieres recibir
+                                es
+                                un
+                                mensaje
+                                informándote que estás por llegar al límite.</td>
+                            <td>Ciberseguridad</td>
+                            <td><a href="https://cnetenespanol.com/asesorese-para-protegerse-del-robo-de-identidad/"
+                                    target="_blank">Más detalles</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>¿Estamos preparados para vivir sin contraseñas?</td>
+                            <td>11/12/2017</td>
+                            <td>Las principales empresas tecnológicas apuestan por métodos de identificación
+                                alternativos.</td>
+                            <td>Ciberseguridad</td>
+                            <td><a href="https://elpais.com/tecnologia/tu-tecnologia/2026-02-11/estamos-preparados-para-vivir-sin-contrasenas.html"
+                                    target="_blank">Más detalles</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Moltbook, la red social donde los agentes de IA crean religiones
+                                y los humanos “son bienvenidos a observar”</td>
+                            <td>10/02/2026</td>
+                            <td>La plataforma, que tiene una estructura similar a Reddit,
+                                afirma haber superado el millón y medio de bots registrados hasta el momento</td>
+                            <td>Inteligencia Artificial</td>
+                            <td><a href="https://elpais.com/tecnologia/2026-02-02/moltbook-la-red-social-donde-los-agentes-de-ia-crean-religiones-y-los-humanos-son-bienvenidos-a-observar.html#?rel=lom"
+                                    target="_blank">Más detalles</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+        <article>
+            <section id="contact" style="background-color: #fff179; height: 380px; width: 100%;">
+                <br>
+                <div style="width: 45%; height: 250px; float: left;">
+                    <h2 style="text-align: center;">Contactanos</h2>
+                    <p style="text-align: center;">Puedes contactarnos para tener las últimas noticias acerca de
+                        tecnologia
+                        mundial.
+                    </p>
+                    <p><i class="fas fa-phone"></i> Telefono: +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> Email: info@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Direccion: 123 Street, City</p>
+                </div>
+                <div style="width: 55%; height: 250px; float: right;">
+                    <h2>Escribenos</h2>
+                    <form action="">
+                        <label for="fname">Nombre:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Apellido:</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
+                        <label for="company">Email:</label><br>
+                        <input type="text" id="company" name="company" required><br>
+                        <label for="msg">Mensaje:</label><br>
+                        <input type="text" id="msg" name="msg" required><br>
+                        <br>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer
+        style="list-style-type: none; margin: 0%; padding: 0%; overflow: hidden; display: inline; display: flex; justify-content: center; display: block; padding: 14px 16px; text-decoration: none; color: white; background-color: #4bdaed">
+        <div>
+            <p style="text-align: center;">Copyright© 2026. Todos los derechos reservados</p>
+        </div>
+        <div>
+            <a href="#top" class="back-to-top">Subir</a>
+        </div>
+    </footer>
+</body>
+
+</html>
